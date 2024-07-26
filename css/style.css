@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.building {
+	height: 1112px;
+	display: flex;
+	flex-direction: column-reverse;
+	gap: 8px;
+}
+
+.level {
+	display: flex;
+	gap: 8px;
+}
+
+.elevatorGate {
+	width: 48px;
+	height: 48px;
+	background-color: gray;
+	border: 1px solid black;
+}
+
+.active {
+	width: 48px;
+	height: 48px;
+}
+
+.elevator {
+	user-select: none;
+	text-align: center;
+	line-height: 48px;
+	width: 48px;
+	height: 48px;
+	background-color: green;
+	transition: transform 800ms ease-in-out;
+}
+
+.button {
+	user-select: none;
+}
